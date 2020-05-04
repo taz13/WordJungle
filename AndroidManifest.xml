@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="word.jungle.com"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity android:name=".Splash"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WordJungleActivity"
+                  android:label="@string/app_name" android:screenOrientation="portrait"  >
+            <intent-filter>
+                <action android:name="word.jungle.com.WORDJUNGLEACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".Start" android:screenOrientation="portrait"  android:label="@string/app_name">           
+        </activity>
+         <activity android:name=".Option" android:screenOrientation="portrait"  android:label="@string/app_name">           
+        </activity>
+        <activity android:name=".Save" android:screenOrientation="portrait"  android:label="@string/app_name">           
+        </activity>
+        <activity android:name=".Load" android:screenOrientation="portrait"  android:label="@string/app_name">           
+        </activity>
+        <activity android:name=".Exit" android:screenOrientation="portrait"  android:label="@string/app_name">           
+        </activity>
+        <activity android:name=".GameActivity" android:screenOrientation="portrait"  android:label="@string/app_name">           
+        </activity>
+        <activity android:label="@string/app_name" android:screenOrientation="portrait"  android:name=".dialog" android:theme="@android:style/Theme.Dialog">        
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+</manifest>

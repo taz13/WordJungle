@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/ibExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="112dp"
+        android:src="@drawable/exit" />
+
+    <ImageButton
+        android:id="@+id/ibSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibExit"
+        android:layout_alignLeft="@+id/ibExit"
+        android:src="@drawable/save" />
+
+    <ImageButton
+        android:id="@+id/ibLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibSave"
+        android:layout_alignRight="@+id/ibSave"
+        android:src="@drawable/load" />
+
+    <ImageButton
+        android:id="@+id/ibOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibLoad"
+        android:layout_alignLeft="@+id/ibSave"
+        android:src="@drawable/option" />
+
+    <ImageButton
+        android:id="@+id/ibStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ibOption"
+        android:layout_alignLeft="@+id/ibOption"
+        android:src="@drawable/start" />
+
+</RelativeLayout>

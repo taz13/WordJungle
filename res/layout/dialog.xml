@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_x="30dp"
+        android:layout_y="118dp"
+        android:text="Congratulions!!\nYou have successfully\ncompleted the level."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+   
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:layout_x="93dp"
+        android:layout_y="246dp"
+        android:text="Menu" />
+
+</AbsoluteLayout>
